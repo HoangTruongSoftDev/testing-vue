@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from "vue";
-import Json from "../json/mongo-dump";
+import Json from "../database/mongo-dump";
 
 const searchVerb = ref(); // a string that represents the value of the input
 
